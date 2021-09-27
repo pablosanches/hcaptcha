@@ -1,0 +1,23 @@
+{
+    "name": "pablosanches/hcaptcha",
+    "description": "A simple wrapper for hCaptcha",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Pablo Sanches",
+            "email": "sanches.webmaster@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "pablosanches/owl": "1.0.*"
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "psr-4": {
+            "PabloSanches\\": "src/"
+        }
+    }
+}
