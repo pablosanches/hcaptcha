@@ -28,7 +28,7 @@
 5. Now in your PHP **back end**:
 
 ```php
-   require('../vendor/autoload.php');
+    require('../vendor/autoload.php');
     use PabloSanches\hCaptcha;
 
     $hCaptcha = new hCaptcha('your-secret-key');
